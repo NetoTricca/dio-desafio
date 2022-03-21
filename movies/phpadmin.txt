@@ -1,0 +1,25 @@
+localhost/movies_control/movies/		http://localhost/phpmyadmin/index.php?route=/sql&db=movies_control&table=movies&pos=0
+
+   A mostrar registos de 0 -  4 (5 total, A consulta demorou 0.0016 segundos.)
+
+
+SELECT * FROM `movies`
+
+
+id	type	name	total_ep	atual_ep	last_view	
+1	0	Friends	10	1	2021-12-13	
+2	1	Star Wars	
+    NULL
+	
+    NULL
+	2020-05-01	
+3	0	Outer Bank	12	4	2021-07-09	
+4	0	Peaky Blinders	8	8	2022-03-21	
+5	1	King Richards	
+    NULL
+	
+    NULL
+	2022-03-21	
+
+
+

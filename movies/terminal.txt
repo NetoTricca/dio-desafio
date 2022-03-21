@@ -1,0 +1,29 @@
+MariaDB [dio_mysql]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| dio_mysql          |
+| information_schema |
+| movies_control     |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
++--------------------+
+7 rows in set (0.001 sec)
+
+MariaDB [dio_mysql]> use movies_control
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+MariaDB [movies_control]> show tables
+    -> ;
++--------------------------+
+| Tables_in_movies_control |
++--------------------------+
+| movies                   |
++--------------------------+
+1 row in set (0.000 sec)
+
+
